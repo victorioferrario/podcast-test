@@ -16,7 +16,7 @@ jobs:
           pip install pyyaml
       - name: Run Feed Generator
         run: |           
-            python /feed.py
+            python /home/runner/work/podcast-test/podcast-test/feed.py
       - name: Push Repo
         run: |
           git config user.name github-actions
